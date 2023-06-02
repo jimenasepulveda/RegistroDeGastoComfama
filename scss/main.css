@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #dcf1f1;
+}
+
+.My-title {
+  color: #EE2B7B;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .My-title {
+    font-size: 30px;
+    padding: 5px;
+  }
+}
+
+.section {
+  margin: 0 auto;
+  padding: 0 10rem;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .section {
+    margin: 5px;
+    padding: 0;
+  }
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table__row {
+  border: 1px solid #1e1e1e;
+  padding: 3px;
+}
+.table__header {
+  background-color: #ef72a6;
+  color: #181818;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #1e1e1e;
+  padding: 3px;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .table__header {
+    font-size: 11px;
+  }
+}
+.table__info {
+  text-align: left;
+  border: 1px solid #1e1e1e;
+  padding: 3px;
+  font-size: 15px;
+  color: #181818;
+}
+@media (max-width: 768px) {
+  .table__info {
+    font-size: 10px;
+  }
+}
+
+.button {
+  padding: 5px 5px;
+  background-color: #e794b6;
+  border: 1px solid #EE2B7B;
+  cursor: pointer;
+  margin-top: 2px;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .button {
+    width: 100%;
+    max-width: none;
+    border-radius: 5px;
+  }
+}
+.button__text {
+  color: #181818;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  .button__text {
+    font-size: 10px;
+  }
+}
+
+.Form {
+  background-color: rgb(176, 231, 243);
+  border-radius: 20px;
+  padding: 20px 40px;
+  box-shadow: -3px 3px 0 rgb(144, 220, 237);
+}
+.Form__field {
+  margin-bottom: 10px;
+}
+.Form__label {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.Form .form__input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #858585;
+  border-radius: 4px;
+}
+.Form .form__input--text {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 80px;
+}
+
+.Title {
+  display: flex;
+  margin-top: 0;
+  color: #EE2B7B;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

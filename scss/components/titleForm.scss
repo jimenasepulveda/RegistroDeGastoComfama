@@ -1,0 +1,8 @@
+@import '../variables.scss';
+.Title{
+    display: flex;
+    margin-top: 0;
+    color: $primary-color;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+@import '../variables.scss';
+.Form{ 
+    background-color: rgb(176, 231, 243);
+    border-radius: 20px;
+    padding: 20px 40px;
+    box-shadow: -3px 3px 0 rgb(144, 220, 237) ;
+    &__field {
+        margin-bottom: 10px;
+    }
+    &__label {
+        display: block;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+    
+    .form__input{
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #858585;
+        border-radius: 4px;
+        &--text{
+            width: 100%;
+            // padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            height: 80px;
+        } 
+    }
+}
